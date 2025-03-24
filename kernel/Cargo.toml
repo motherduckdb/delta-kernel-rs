@@ -67,8 +67,8 @@ arrow_53 = { package = "arrow", version = "53", features = ["chrono-tz", "ffi", 
 parquet_53 = { package = "parquet", version = "53", features = ["async", "object_store"] , optional = true }
 ######
 ## 54
-arrow_54 = { package = "arrow", version = "54", features = ["chrono-tz", "ffi", "json", "prettyprint"], optional = true }
-parquet_54 = { package = "parquet", version = "54", features = ["async", "object_store"] , optional = true }
+arrow_54 = { package = "arrow", version = "=54.2.1", features = ["chrono-tz", "ffi", "json", "prettyprint"], optional = true }
+parquet_54 = { package = "parquet", version = "=54.2.1", features = ["async", "object_store"] , optional = true }
 ######
 
 futures = { version = "0.3", optional = true }
